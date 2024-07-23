@@ -3,9 +3,6 @@ import { MenuItem } from "@material-ui/core";
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { ExchangeRatesTable } from "./exchangeRatesTable";
 import './exchangeRates.css';
-import { BorderBottom } from "@mui/icons-material";
-
-
 
 export const ExchangeRates: React.FC = () => {
 

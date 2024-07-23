@@ -44,7 +44,6 @@ export const ExchangeRatesTable: React.FC<{ selectedCurrency: string }> = ({ sel
         footer: 'base',
         size: 150,
         Cell: ({ }) => <span>{selectedCurrency}</span>
-
       },
       {
         accessorKey: 'currencyName',
