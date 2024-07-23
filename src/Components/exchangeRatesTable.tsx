@@ -69,9 +69,10 @@ export const ExchangeRatesTable: React.FC<{ selectedCurrency: string }> = ({ sel
     enableStickyHeader: true,
     enableStickyFooter: true,
     enablePagination: false,
-    muiTableContainerProps: { sx: { maxHeight: '400px' } },
+    muiTableContainerProps: { sx: { maxHeight: '350px' } },
     muiTableBodyCellProps: {
       sx: (theme) => ({
+       
         backgroundColor:
           theme.palette.mode === 'dark'
             ? theme.palette.grey[900]
